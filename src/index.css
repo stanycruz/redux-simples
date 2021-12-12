@@ -1,25 +1,12 @@
 body {
   background-color: #222;
   font-size: 2rem;
-  font-family: 'Oswald-Regular';
+  font-family: 'Oswald';
   color: #FFF;
   margin: 30px;
 }
 
 @font-face {
-  font-family: 'Oswald-Light';
-  src: local('Oswald-Light'), url('./fonts/Oswald-Light.ttf') format('truetype');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Oswald-Regular';
-  src: local('Oswald-Regular'), url('./fonts/Oswald-Regular.ttf') format('truetype');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Oswald-Bold';
-  src: local('Oswald-Bold'), url('./fonts/Oswald-Bold.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'Oswald';
+  src: local('Oswald'), url('./fonts/Oswald-Regular.ttf') format('truetype');
 }
